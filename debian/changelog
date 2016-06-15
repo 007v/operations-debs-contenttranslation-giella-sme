@@ -1,0 +1,12 @@
+giella-sme (0.0.20150917~r121176-1+wmf1) jessie-wikimedia; urgency=low
+
+  * Rebuild for Jessie
+
+ -- Kartik Mistry <kartik@debian.org>  Wed, 15 Jun 2016 10:52:06 +0530
+
+giella-sme (0.0.20150917~r121176-1) unstable; urgency=low
+
+  [ Tino Didriksen ]
+  * Initial release (Closes: #814400)
+
+ -- Kartik Mistry <kartik@debian.org>  Tue, 07 Jun 2016 13:55:55 +0530
