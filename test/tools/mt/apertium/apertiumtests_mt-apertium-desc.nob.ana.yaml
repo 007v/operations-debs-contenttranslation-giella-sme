@@ -1,0 +1,101 @@
+Config:
+  hfst:
+    Gen:   ../../../../tools/mt/apertium/generator-mt-apertium-norm.nob.hfstol
+    Morph: ../../../../tools/mt/apertium/analyser-mt-apertium-desc.nob.hfstol
+  xerox:
+    Gen:   ../../../../tools/mt/apertium/generator-mt-apertium-norm.nob.xfst
+    Morph: ../../../../tools/mt/apertium/analyser-mt-apertium-desc.nob.xfst
+    App: lookup
+
+Tests:
+
+# Tag tests:
+  G3 - vuorru:
+    vuorru<n><g3><sem_ani><sg><gen>: vuorru
+
+  G7 - gálli:
+    gálli<n><g7><sg><gen>: gálli
+
+  NomAg - nubbijođiheaddji:
+    nubbijođiheaddji<n><nomag><sem_hum><sg><nom>: nubbijođiheaddji
+
+# No variant tags should be visible:
+  v1 - rekruterenoassi:
+    rekruterenoassi<n><sg><gen>: rekruterenoasi
+
+  v2 - servodatfágalinjá:
+    servodatfágalinjá<n><sg><gen>: servvodatfágalinjjá
+
+  v3 - lohkanlistu:
+    lohkanlistu<n><sg><gen>: lohkanlisttá
+
+  v4 - servodatvásihus:
+    servodatvásihus<n><sg><gen>: servvodatvásihusa
+
+  v5 - sihkkelkursa:
+    sihkkelkursa<n><sg><gen>: syhkkelgurssa
+
+  v6 - eanahálddašanláhka:
+    eanahálddašanláhka<n><sem_txt><sg><gen>: eatnanhálddahanlága
+
+  v7 - eahkediskursa:
+    eahkediskursa<n><sg><gen>: eahketkurssa
+
+  v8 - diibmolistu:
+    diibmolistu<n><sg><gen>: tiibmalistta
+
+# Sem tags in all cases, used for disambiguation:
+  Sem/Sur - Risten:
+    Risten<n><prop><sem_sur><sg><nom>: Risten
+
+  Sem/Plc - Romsa:
+    Romsa<n><prop><sem_plc><sg><gen>: Romssa
+
+  Sem/Hum - ipmil:
+    ipmil<n><sem_hum><sg><nom>: ipmil
+
+  Sem/Veh - biila:
+    biila<n><sem_veh><sg><gen>: biilla
+
+  Sem/Txt - girji:
+    girji<n><sem_txt><sg><gen>: girjji
+
+# Adverbial clitics should be recognised and qst moved before foc_naj:
+  Clitics - gielanaigo:
+    giella<n><sem_lang_tool><sg><gen><qst>+naj<pcle>: gielanaigo
+
+# No dialect tags:
+  No dialect tags - earenoamáš:
+    erenoamáš<a><sg><nom>: earenoamáš
+
+# No derivations except for passive and goahti:
+  No dimin derivation:
+    biila<n><sem_veh><der_dimin><n><sg><nom>: ~biillaš
+
+  No laš derivation - elolaš:
+    eallu<n><der_laš><a><sg><nom>: ~elolaš
+    eallu<n><der_laš><a><attr>: ~elolaš
+    eallu<n><sem_ani_group><der_laš><a><sg><nom>: ~elolaš
+    eallu<n><sem_ani_group><der_laš><a><attr>: ~elolaš
+
+  No laš derivation - Eurohpálaš:
+    Eurohpá<n><prop><der_laš><a><attr>: ~Eurohpálaš
+    Eurohpá<n><prop><der_laš><a><sg><nom>: ~Eurohpálaš
+    Eurohpá<n><prop><sem_plc><der_laš><a><attr>: ~Eurohpálaš
+    Eurohpá<n><prop><sem_plc><der_laš><a><sg><nom>: ~Eurohpálaš
+    Eurohpálaš<a><sg><nom>: Eurohpálaš
+    Eurohpálaš<a><attr>: Eurohpálaš
+
+  Accept passive derivation:
+    oaivvildit<vblex><tv><der_passl><vblex><iv><indic><pres><sg3>: oaivvilduvvo
+
+  Accept both long and short passives:
+    gullat<vblex><tv><der_passl><vblex><iv><indic><pres><sg2>: gullojuvvot
+    gullat<vblex><tv><der_passs><vblex><iv><indic><pres><sg2>: gullot
+
+  Accept derivations with Der/goahti:
+    gullat<vblex><tv><der_goahti><vblex><indic><pres><sg2>: gullagoađát
+
+# Test that compounds go through with the expected form and analysis:
+  Compound1:
+    biila<n><sem_veh><sgnomcmp><cmp>+guovlu<n><sem_plc><sg><nom>: biilaguovlu

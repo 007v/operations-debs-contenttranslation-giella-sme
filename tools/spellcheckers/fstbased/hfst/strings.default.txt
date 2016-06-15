@@ -1,0 +1,265 @@
+# Add your error:correct string pairs here (not complete words, they have
+# a separate file), followed by TAB and the weight for the edit operation:
+
+ht:htt	-3
+htt:ht	-3
+
+hp:hpp	-3
+hpp:hp	-3
+
+hk:hkk	-3
+hkk:hk	-3
+
+lmm:lbm	-1
+lbm:lmm	-1
+
+pm:bm	-2
+bm:pm	-2
+
+tn:dn	-2
+dn:tn	-2
+
+kk:gg	-2
+
+žž:čč	-2
+čč:žž	-2
+
+tt:dd	-2
+
+vcc:vzz	-2
+
+dd:đđ	-2
+
+ib:ibb	-2
+ibb:ib	-2
+
+id:idd	-2
+idd:id	-2
+
+ig:igg	-2
+igg:ig	-2
+
+ik:ikk	-2
+ikk:ik	-2
+
+
+il:ill	-2
+ill:il	-2
+
+it:itt	-2
+itt:it	-2
+
+ip:ipp	-2
+ipp:ip	-2
+
+is:iss	-2
+iss:is	-2
+
+iv:ivv	-2
+ivv:iv	-2
+
+lb:lbb	-2
+lbb:lb	-2
+
+ld:ldd	-2
+ldd:ld	-2
+
+lg:lgg	-2
+lgg:lg	-2
+
+lk:lkk	-2
+lkk:lk	-2
+
+lt:ltt	-2
+ltt:lt	-2
+
+lp:lpp	-2
+lpp:lp	-2
+
+ls:lss	-2
+lss:ls	-2
+
+lv:lvv	-2
+lvv:lv	-2
+
+lf:lff	-2
+lff:lf	-2
+
+rb:rbb	-2
+rbb:rb	-2
+
+rd:rdd	-2
+rdd:rd	-2
+
+rg:rgg	-2
+rgg:rg	-2
+
+rk:rkk	-2
+rkk:rk	-2
+
+rt:rtt	-2
+rtt:rt	-2
+
+rp:rpp	-2
+rpp:rp	-2
+
+rs:rss	-2
+rss:rs	-2
+
+rv:rvv	-2
+rvv:rv	-2
+
+rf:rff	-2
+rff:rf	-2
+
+rj:rjj	-2
+rjj:rj	-2
+
+sk:skk	-2
+skk:sk	-2
+
+sm:smm	-2
+smm:sm	-2
+
+sp:spp	-2
+spp:sp	-2
+
+st:stt	-2
+stt:st	-2
+
+tk:tkk	-2
+tkk:tk	-2
+
+vd:vdd	-2
+vdd:vd	-2
+
+vg:vgg	-2
+vgg:vg	-2
+
+vj:vjj	-2
+vjj:vj	-2
+
+vk:vkk	-2
+vkk:vk	-2
+
+vl:vll	-2
+vll:vl	-2
+
+vp:vpp	-2
+vpp:vp	-2
+
+vr:vrr	-2
+vrr:vr	-2
+
+vt:vtt	-2
+vtt:vt	-2
+
+ng:ŋg	-2
+nk:ŋk	-2
+
+ŋ:nj	-2
+nj:ŋ	-2
+
+nnj:ŋŋ	-2
+
+uoinn:uoiŋŋ	-2
+
+Ránež:Rátnáh	-2
+
+ihk:ikk	-2
+
+x:ks	-2
+
+
+ie:ea	0.19
+uo:oa	0.19
+
+
+jot:joga	-2
+joh:joga	-2
+joht:joga	-2
+
+jotla:johkala	-2
+johla:johkala	-2
+johtla:johkala	-2
+
+njár:njárgga	-2
+
+geain:geainnu	-2
+
+ivčče:edje	-2
+ivččii:ii	-2
+
+has:hasat	-2
+sa:said	-2
+sii:aide	-2
+
+or:evr	-2
+ør:evr	-2
+ör:evr	-2
+
+riika:rihkká	-2
+riikka:rihká	-2
+riikkas:rihkás	-2
+riikii:rihkkái	-2
+
+
+uvra:ur	-2
+ále:álii	-2
+uovtte:uovtti	-2
+jealje:jealji	-2
+oatte:oatti	-2
+un:uvvon	-2
+ámi:áme	-2
+vuohta:vuođa
+uokt:uovtt	-2
+ilbme:ilmmi	-2
+beal:bealde	-2
+ubbe:ubbi	-2
+gáfej:kafé	-2
+seum:sea	-2
+ti:tiija	-2
+gi:giija	-2
+ri:riija	-2
+mi:miija	-2
+il:iila	-2
+áilojit:áilot	-2
+httejit:httet	-2
+uvvojit:uvvet	-2
+uvvojedje:uvve	-2
+uvvoje:uvve	-2
+áilojedje:áilo	-2
+áiloje:áilo	-2
+eje:e	-2
+rasit:rasii	-2
+peža:paša	-2
+árvá:árvásat	-2
+áddá:áddásat	-2
+šu:tio	-2
+áli:álii	-2
+ndiht:n diht	-2
+kadiht:ka diht	-2
+ugohč:u gohč	-2
+aládj:a ládj	-2
+eammáládj:eamma ládj	-2
+eammá ládj:eamma ládj	-2
+áládj:á ládj	-2
+nládj:n ládj	-2
+eládj:e ládj	-2
+oládj:o ládj	-2
+uládj:u ládj	-2
+sládj:s ládj	-2
+tládj:t ládj	-2
+aláhk:a láhk	-2
+eammáláhk:eamma láhk	-2
+eammá láhk:eamma láhk	-2
+áláhk:á láhk	-2
+nláhk:n láhk	-2
+eláhk:e láhk	-2
+oláhk:o láhk	-2
+uláhk:u láhk	-2
+sláhk:s láhk	-2
+tláhk:t láhk	-2
+iinu:ii nu	-2
+áhpahuvva:áhpáhuvvá	-2
+eallii:ellii	-2

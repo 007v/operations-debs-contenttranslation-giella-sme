@@ -1,0 +1,23 @@
+# This script reshuffles sub-POS tags to follow the main POS.
+# The script is language specific, and covers only the sub-POS
+# tags relevant for North Sámi.
+
+# G3 & G7:
+%+N %+G3 <- %+G3 %+N  ,
+%+N %+G7 <- %+G7 %+N  ,
+
+# %+NomAg
+%+N %+NomAg <- %+NomAg %+N ,
+%+NomAg %+Sem%/Hum <- %+Sem%/Hum %+NomAg ,
+%+N %+NomAg %+Sem%/Hum <- %+Sem%/Hum %+N %+NomAg ,
+%+N %+NomAg %+Sem%/Hum <- %+Sem%/Hum %+NomAg %+N ,
+
+# %+Coll
+%+N %+Coll %+Sem%/Hum <- %+Sem%/Hum %+N %+Coll ,
+%+v1 %+N %+Coll %+Sem%/Hum <- %+Sem%/Hum %+v1 %+N %+Coll ,
+%+v2 %+N %+Coll %+Sem%/Hum <- %+Sem%/Hum %+v2 %+N %+Coll ,
+%+v3 %+N %+Coll %+Sem%/Hum <- %+Sem%/Hum %+v3 %+N %+Coll ,
+%+v4 %+N %+Coll %+Sem%/Hum <- %+Sem%/Hum %+v4 %+N %+Coll ,
+
+%+v1 %+Dial%/%-GG %+N %+Sem%/Plc <- %+Sem%/Plc %+v1 %+Dial%/%-GG %+N ,
+%+v2 %+Dial%/%-KJ %+N %+Sem%/Plc <- %+Sem%/Plc %+v2 %+Dial%/%-KJ %+N ;
